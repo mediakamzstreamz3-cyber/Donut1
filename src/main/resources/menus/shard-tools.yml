@@ -1,0 +1,8 @@
+type: menu
+title: "<dark_gray>⚓ Shard Shop ¦ Tools Menu"
+currency: shards
+rows: 4
+back: shard-main
+back-slot: 31
+items:
+  - {slot: 13, material: NETHERITE_PICKAXE, name: "AMETHYST PICKAXE", color: "#A20AD6", tag: "SHARDS", description: ["Breaks 9 blocks at once.", "Costs 300 shards."], buy: 300, commands: ["tools give %player% drill 1"]}

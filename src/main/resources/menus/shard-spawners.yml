@@ -1,0 +1,19 @@
+type: shop
+title: "<dark_gray>⚓ Shard Shop ¦ Spawners Menu"
+currency: shards
+columns: 7
+back: shard-main
+# Spawners are given by running the SmartSpawner command as console when bought.
+# If your SmartSpawner is an older version, change the command to: ss give %player% <mob> 1
+items:
+  - {material: SPAWNER, name: "Pig Spawner", color: "#FF3C8E", description: ["Spawns pigs."], buy: 50, commands: ["ss give spawner %player% pig 1"]}
+  - {material: SPAWNER, name: "Cow Spawner", color: "#FF3C8E", description: ["Spawns cows."], buy: 75, commands: ["ss give spawner %player% cow 1"]}
+  - {material: SPAWNER, name: "Chicken Spawner", color: "#FF3C8E", description: ["Spawns chickens."], buy: 75, commands: ["ss give spawner %player% chicken 1"]}
+  - {material: SPAWNER, name: "Sheep Spawner", color: "#FF3C8E", description: ["Spawns sheep."], buy: 75, commands: ["ss give spawner %player% sheep 1"]}
+  - {material: SPAWNER, name: "Zombie Spawner", color: "#FF3C8E", description: ["Spawns zombies."], buy: 150, commands: ["ss give spawner %player% zombie 1"]}
+  - {material: SPAWNER, name: "Skeleton Spawner", color: "#FF3C8E", description: ["Spawns skeletons."], buy: 200, commands: ["ss give spawner %player% skeleton 1"]}
+  - {material: SPAWNER, name: "Spider Spawner", color: "#FF3C8E", description: ["Spawns spiders."], buy: 200, commands: ["ss give spawner %player% spider 1"]}
+  - {material: SPAWNER, name: "Creeper Spawner", color: "#FF3C8E", description: ["Spawns creepers."], buy: 250, commands: ["ss give spawner %player% creeper 1"]}
+  - {material: SPAWNER, name: "Blaze Spawner", color: "#FF3C8E", description: ["Spawns blazes."], buy: 350, commands: ["ss give spawner %player% blaze 1"]}
+  - {material: SPAWNER, name: "Enderman Spawner", color: "#FF3C8E", description: ["Spawns endermen."], buy: 400, commands: ["ss give spawner %player% enderman 1"]}
+  - {material: SPAWNER, name: "Iron Golem Spawner", color: "#FF3C8E", description: ["Spawns iron golems."], buy: 500, commands: ["ss give spawner %player% iron_golem 1"]}

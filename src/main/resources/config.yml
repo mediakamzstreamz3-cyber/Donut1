@@ -1,0 +1,18 @@
+currency-symbol: "$"
+shard-symbol: "◆"
+starting-shards: 0
+
+messages:
+  prefix: "<bold><#3FB8F0>SHOP</bold> <gray>▷ "
+  bought: "<white>You bought <#3FB8F0>%item%</#3FB8F0> for <green>%price%</green><white>!"
+  sold: "<white>You sold <#3FB8F0>%item%</#3FB8F0> for <green>%price%</green><white>!"
+  not-enough: "<white>You can't afford <#3FB8F0>%item%</#3FB8F0>, it costs <red>%price%</red><white>!"
+  not-for-sale: "<white>That item <red>can't be bought</red> here!"
+  not-sellable: "<white>That item <red>can't be sold</red> here!"
+  no-items: "<white>You don't have <red>enough of that item</red> to sell!"
+  no-economy: "<red>No economy plugin (Vault) found, so money shops are disabled."
+  unknown-menu: "<white>Unknown menu: <red>%menu%"
+  no-permission: "<white>You <red>don't have permission</red> to do that!"
+  shards-balance: "<white>%player% has <light_purple>%amount%</light_purple> shards<white>."
+  shards-changed: "<white>%player% now has <light_purple>%amount%</light_purple> shards<white>."
+  reloaded: "<white>DonutShop <green>reloaded</green><white>."
